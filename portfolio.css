@@ -4,13 +4,17 @@ body {
   font-optical-sizing: auto;
 }
 
+.text-primary {
+    color: darkorange;}
+
 /* nav related styles */
 nav {
     display:flex;
 }
+
 .nav-title {
     font-weight: 800;
-    font-style: normal;
+    font-size: 45px;
     font-variation-settings:
     "wdth" 100;
 }
