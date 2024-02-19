@@ -18,3 +18,20 @@ nav {
     font-variation-settings:
     "wdth" 100;
 }
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: darkorange;
+}
+
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+text-decoration: none;
+color: darkgray;
+}
