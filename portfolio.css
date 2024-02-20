@@ -10,13 +10,16 @@ body {
 /* nav related styles */
 nav {
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
     font-weight: 800;
     font-size: 45px;
     font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 .btn-primary {
     border-radius: 5px;
@@ -38,4 +41,19 @@ nav li {
 nav a {
 text-decoration: none;
 color: darkgray;
+}
+
+/* header related styles */
+.header {
+    background-color: bisque;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .profile-picture {
+    width: 500px;
+}
+.text-primary .love-tag {
+    text-decoration-color: chartreuse;
 }
