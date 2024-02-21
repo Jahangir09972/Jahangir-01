@@ -82,19 +82,24 @@ color: darkgray;
 .text-primary .love-tag {
     text-decoration-color: chartreuse;
 }
-/* main section styles */
+/* about section styles */
 .about{
-padding: 80px 150px;
+padding: 130px;
+border-radius: 10px;
+background-color: rgb(252, 239, 222);
+margin-top:130px;
 }
 
 .section-title{
     font-size: 25px;
-    margin-top:15px;
+    text-align: center;
+    font-weight: 700;
 }
 .about-description{
     font-size: 16px;
     color: black;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
 }
-/* about section styles */
+/* main section styles */
