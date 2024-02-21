@@ -126,6 +126,14 @@ main{
     margin-top: 30px;
     padding: 30px 130px;
 }
+
+/* skill related styles */
 #what-i-do-description{
     padding: 30px 150px;
+}
+.skill{
+    padding: 30px;
+}
+.skill-container{
+    display: flex;
 }
