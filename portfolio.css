@@ -29,8 +29,8 @@ nav {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-top: 5px;
 }
-
 nav > ul {
     display: flex;
 }
@@ -46,14 +46,55 @@ color: darkgray;
 /* header related styles */
 .header {
     background-color: bisque;
+    background-image: url('../Jahangir-01/Images/Background\ Image.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 150px;
 }
 .banner {
     padding: 30px 30px 30px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content {
+    max-width: 800px;
+}
+.greeting {
+    font-size: 25px;
+    color: rgb(8, 8, 8);
+    margin-bottom: 0px;
+}
+.banner-title {
+    font-size: 45px;
+    color: rgb(77, 6, 6);
+    margin-top: 5px;
+}
+.description {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .banner .profile-picture {
-    width: 500px;
+    width: 400px;
+    margin-bottom: 5px;
 }
 .text-primary .love-tag {
     text-decoration-color: chartreuse;
 }
+/* main section styles */
+.about{
+padding: 80px 150px;
+}
+
+.section-title{
+    font-size: 25px;
+    margin-top:15px;
+}
+.about-description{
+    font-size: 16px;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* about section styles */
