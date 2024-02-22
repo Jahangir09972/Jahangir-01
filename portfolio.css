@@ -3,7 +3,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-
 .text-primary {
     color: darkorange;}
 
@@ -14,7 +13,6 @@ nav {
     align-items: center;
     margin: 0 200px;
 }
-
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -190,4 +188,24 @@ main{
     text-align: center;
     color: darkorange;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* footer related styles */
+
+.footer{
+    display: flex;
+    padding: 130px, 200px;
+    background: #fff8f3;
+    margin-top: 100px;
+}
+.section-title{
+    margin-bottom: 5px;
+}
+.section-description{
+    margin-top: 5px;
+    margin-bottom: 05px;
+}
+.sosal-link{
+    text-align: center;
+    margin-top: 05px;
 }
