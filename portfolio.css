@@ -160,12 +160,17 @@ main{
 }
 .resume-container{
     display: flex;
+    gap: 100px;
     justify-content: space-between;
     padding: 30px;
     gap: 50px;
 }
 .resume-container hr{
     margin: 30px;
+}
+.resume-column{
+    width: 50%;
+    text-align: center;
 }
 
 .resume-item-description{
@@ -203,9 +208,25 @@ main{
 }
 .section-description{
     margin-top: 5px;
-    margin-bottom: 05px;
+    margin-bottom: 5px;
 }
-.sosal-link{
+.social-link{
     text-align: center;
     margin-top: 05px;
+
+}
+.footer-column{
+    width: 50%;
+}
+.Contact input, textarea{
+display: block;
+margin-bottom: 25px;
+padding: 18px 30px;
+color: #757575;
+border-radius: 5px;
+background: #fff;
+width: 85%;
+}
+.btn-primary{
+    margin-bottom: 30px;
 }
