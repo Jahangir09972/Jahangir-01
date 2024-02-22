@@ -163,7 +163,9 @@ main{
 .resume-container{
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 }
+
 .section-title{
     margin-top: 100px;
 }
