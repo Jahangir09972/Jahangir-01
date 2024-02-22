@@ -11,13 +11,14 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 10px 200px;
 }
 .nav-title {
     font-weight: 800;
     font-size: 45px;
     font-variation-settings:
     "width" 100;
+    margin-top: 10px;
 }
 .btn-primary {
     border-radius: 5px;
